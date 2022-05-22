@@ -1,0 +1,1590 @@
+id: o4PBLmmY60GVl7kFZejCHg
+projectId: X8aVseLzDEeJkaEu5LI4zQ
+projectName: TIX ID
+created: 2022-05-22T06:35:28.0620072Z
+protocol: 1
+tests:
+- id: 908ezpS0MEekMx-PvFeEcg
+  name: DetailPage
+  description: ''
+  platform: Android
+  type: Mobile
+  driverType: Appium_Android
+  version: 0.1
+  creationDate: 2022-05-21T07:20:22.0000000
+  modificationDate: 2022-05-21T09:06:57.0000000
+  settings:
+    automationAssistant: true
+    deviceId: emulator-5554
+    appId: SA-Q_bNWf02TL4u3vdbxkQ
+    stepSleepTime: 4000
+    stepTimeout: 25000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: SA-Q_bNWf02TL4u3vdbxkQ
+    name: TIX_ID
+    platform: Android
+    hash: b1786615b6544f5dd47e25759493943f
+  steps:
+  - id: xYlgFjQdNU6k4yAklXVsFg
+    comments: Clear application data and restart (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: WqMrhWCWDUeXwtnJF2wHyA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Test
+    targetTestId: 5kbeXua2Y0SapgKhtUc92g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pvTcWNUC_kOGy7IZO3HOeg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: BCKIA_E5L0-LmVQN8M95gw
+    settings:
+      sleepTime: 8000
+      timeout: -1
+      sleepTiming: After
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 83XmcluDdkKhUVKXC1wTyw
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 362
+      direction: Input
+    - name: startY
+      value: 785
+      direction: Input
+    - name: endX
+      value: 375
+      direction: Input
+    - name: endY
+      value: 606
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: IQ9Gus9YNUuFN5thqhcLkw
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 476
+      direction: Input
+    - name: startY
+      value: 737
+      direction: Input
+    - name: endX
+      value: 211
+      direction: Input
+    - name: endY
+      value: 758
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MWb0DZrlikalBnpooJ717Q
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 143
+      direction: Input
+    - name: startY
+      value: 655
+      direction: Input
+    - name: endX
+      value: 305
+      direction: Input
+    - name: endY
+      value: 659
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kjibOHOKyUaq-8QrOer-2A
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: 1vquLTK2-EmVgG0A4Xy1IQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MRwFvh4LAUGcIIR1Ol1NPQ
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: 4vxyCkjydkSU6cL5GxZNug
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 91Mw5coA_Ua1no1xLMlBBA
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 333
+      direction: Input
+    - name: startY
+      value: 956
+      direction: Input
+    - name: endX
+      value: 337
+      direction: Input
+    - name: endY
+      value: 703
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: giIUnKFHbkCjI04sA3VCNw
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: nHjr2rX5YUWf503s-CWv5Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MlqkcP5ZKkmWFn2T_puX8Q
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 371
+      direction: Input
+    - name: startY
+      value: 743
+      direction: Input
+    - name: endX
+      value: 368
+      direction: Input
+    - name: endY
+      value: 497
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1aoDSHIkYEuQuMTeaThBew
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 404
+      direction: Input
+    - name: startY
+      value: 248
+      direction: Input
+    - name: endX
+      value: 411
+      direction: Input
+    - name: endY
+      value: 644
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: HUUEGXOduk-ZDeomXRiG7Q
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: Ekdgct8vbkaxcJp3y-vang
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kMpTMrYGHEmyUF0OGDzBEQ
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: 0BLWRf0u9UanQJckk01UEQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xEkeH5MOkU-_sxD9ITH21Q
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 320
+      direction: Input
+    - name: startY
+      value: 941
+      direction: Input
+    - name: endX
+      value: 337
+      direction: Input
+    - name: endY
+      value: 615
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _RbQYO4vHkeoRJfmQ0_bkA
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: xpuTRugHvUqEchoYcKn56w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dBHGY6ohuE6_Lc-x0FvnIg
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: mND5WhhVyk2HFgF8B8NmsA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 74SYIwgJ8EuOhS-2Cho-7A
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: 6SyhDAaN3ki2VW1G-zgXhw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kofVR7XaZk2yrMLukFn8fg
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: Vh-rq8fnwka4oSUG9moOHQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lG3ZQDWeuEKt-5w7tFin2g
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    elementId: rdRnts-TyUmJl91_4wVssQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Mi7HhqhYDkCzDL7X5W75Ig
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 366
+      direction: Input
+    - name: startY
+      value: 1015
+      direction: Input
+    - name: endX
+      value: 375
+      direction: Input
+    - name: endY
+      value: 531
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fMVb66TCm0yVTlHaSGeBDA
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 375
+      direction: Input
+    - name: startY
+      value: 413
+      direction: Input
+    - name: endX
+      value: 362
+      direction: Input
+    - name: endY
+      value: 998
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: gZPI76TE-UeHlMbR9bKCBA
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: 1hlYXKodJkaXP36JUOcaKw
+    settings:
+      sleepTime: 5000
+      timeout: -1
+      sleepTiming: After
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 15NIr6tLkkqAYlnpdhhDzw
+    enabled: true
+    invertResult: false
+    order: 24
+    repeat: 1
+    type: Action
+    elementId: E_M5RotC5UyF3gy8ve4wTQ
+    settings:
+      sleepTime: 5000
+      timeout: -1
+      sleepTiming: After
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zSfRlMMiEU6_jnbvW3j1OQ
+    enabled: true
+    invertResult: false
+    order: 25
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 343
+      direction: Input
+    - name: startY
+      value: 846
+      direction: Input
+    - name: endX
+      value: 343
+      direction: Input
+    - name: endY
+      value: 518
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ectUcS1g-0ivm9k_UX4pLg
+    enabled: true
+    invertResult: false
+    order: 26
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 293
+      direction: Input
+    - name: startY
+      value: 518
+      direction: Input
+    - name: endX
+      value: 297
+      direction: Input
+    - name: endY
+      value: 880
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: OfaC379WuEG9UK-_1Zyt7w
+    enabled: true
+    invertResult: false
+    order: 27
+    repeat: 1
+    type: Action
+    elementId: YMUD7G9wiU2HWXbrvjR5Kw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: h5zie59db0eol8PF48YZGg
+    enabled: true
+    invertResult: false
+    order: 28
+    repeat: 1
+    type: Action
+    elementId: 2xrtqP4fF0aTm_NfSLQ40A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 6vkjBr69V0-CQs13x3iwzA
+    enabled: true
+    invertResult: false
+    order: 29
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 358
+      direction: Input
+    - name: startY
+      value: 977
+      direction: Input
+    - name: endX
+      value: 375
+      direction: Input
+    - name: endY
+      value: 619
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: D34F-6vWm0y6wNqWrxYEjA
+    enabled: true
+    invertResult: false
+    order: 30
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 377
+      direction: Input
+    - name: startY
+      value: 451
+      direction: Input
+    - name: endX
+      value: 377
+      direction: Input
+    - name: endY
+      value: 747
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xCEgaDSOVkei4AGNSjKt0w
+    enabled: true
+    invertResult: false
+    order: 31
+    repeat: 1
+    type: Action
+    elementId: cDOBZ9vUJUWPvjDZ59oBRA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Ycey-F8M3Em78WhlMSS9qQ
+    enabled: true
+    invertResult: false
+    order: 32
+    repeat: 1
+    type: Action
+    elementId: nhAvpW1_SEufDOssvtLibA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZJkSOF-sykmwET-zQtuyWA
+    enabled: true
+    invertResult: false
+    order: 33
+    repeat: 1
+    type: Action
+    elementId: BCKIA_E5L0-LmVQN8M95gw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests:
+- id: 5kbeXua2Y0SapgKhtUc92g
+  name: Login
+  description: ''
+  platform: Android
+  type: Mobile
+  driverType: Appium_Android
+  version: 0.1
+  creationDate: 2022-05-21T07:07:23.0000000
+  modificationDate: 2022-05-22T06:30:10.0000000
+  settings:
+    automationAssistant: true
+    deviceId: emulator-5554
+    appId: SA-Q_bNWf02TL4u3vdbxkQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: mpkzDiw7XkaJU6aT9Cyqrw
+    comments: Clear application data and restart (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: OeARKHTKgUqEPLMMxeEsfg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: UJzaS1A0XEKyDZauFroliw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: x6CaqSsPQ0u7vbNH--Bq6Q
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: JjmisAlOEUqZBYnejaGq3A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Mfh_ibrgcUGnK8nh6JKM1Q
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: h7ZbJI_SKk6Q0aJVezvGVg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: DMeW2ra_tUe38u0lLkLj7A
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: r5X9x-uqEEKxNay42qbb1w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NoYvBXKi_UKKPBiNMtnx2Q
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: r5X9x-uqEEKxNay42qbb1w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 81556639639
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: cYUwkhKD5UOtGKv-Mpkh8w
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: juYNf7oB1Em8LNyFHUMEpw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: TQz8moji7kWFvkcFrZPRnw
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: juYNf7oB1Em8LNyFHUMEpw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{password}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: penUzxfChUuC7NErcfsfhg
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: PxE8FMO0u02zAa7lrIVFfA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 6yzrLdf2BkW-NicETHHugQ
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: fOeptc6zD0-ANW9kEedQsg
+    settings:
+      sleepTime: 5000
+      timeout: -1
+      sleepTiming: After
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bzgMVwYEw0qRxi3mCBYyZA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: 5jfW6nMSG0imFnOjgJePAA
+    settings:
+      sleepTime: 2000
+      timeout: -1
+      sleepTiming: After
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: rafiola saputra
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PZqTUxMMgUWAcsobQGOhNA
+    enabled: false
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: BCKIA_E5L0-LmVQN8M95gw
+    settings:
+      sleepTime: 8000
+      timeout: -1
+      sleepTiming: After
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: password
+    description: ''
+    type: Input
+elements:
+- id: BCKIA_E5L0-LmVQN8M95gw
+  name: Kembali ke atas
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjA
+    name: android.widget.ImageButton
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.ImageButton[@content-desc = 'Kembali ke atas']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.ImageButton
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.ImageButton[1]
+    priority: 2
+- id: 1vquLTK2-EmVgG0A4Xy1IQ
+  name: id.tix.android:id/iv_picture_of_movie
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjI
+    name: android.widget.ImageView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.FrameLayout[2]/android.widget.RelativeLayout/android.widget.ImageView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]
+    priority: 1
+- id: 4vxyCkjydkSU6cL5GxZNug
+  name: SINOPSIS1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'SINOPSIS']
+    priority: 0
+  - name: XPATH
+    value: //*[@class = 'androidx.appcompat.app.ActionBar$Tab'][1]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.HorizontalScrollView[1]/android.widget.LinearLayout[1]/*[@class = 'androidx.appcompat.app.ActionBar$Tab'][1]/android.widget.TextView[1]
+    priority: 2
+- id: nHjr2rX5YUWf503s-CWv5Q
+  name: ANDROID.WIDGET.IMAGEVIEW1
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjI
+    name: android.widget.ImageView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.LinearLayout/android.widget.ImageView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ImageView[1]
+    priority: 1
+- id: Ekdgct8vbkaxcJp3y-vang
+  name: JADWAL
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'JADWAL']
+    priority: 0
+  - name: XPATH
+    value: //*[@class = 'androidx.appcompat.app.ActionBar$Tab'][2]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.HorizontalScrollView[1]/android.widget.LinearLayout[1]/*[@class = 'androidx.appcompat.app.ActionBar$Tab'][2]/android.widget.TextView[1]
+    priority: 2
+- id: 0BLWRf0u9UanQJckk01UEQ
+  name: >-
+    27 Mei
+
+    JUM
+  type:
+    id: jUwODgyNjAyNzk2NTk3MzM
+    name: android.widget.RadioButton
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //android.widget.RadioButton[@text = '27 Mei
+
+      JUM']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.RadioButton[4]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.HorizontalScrollView[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[4]
+    priority: 2
+- id: xpuTRugHvUqEchoYcKn56w
+  name: 20:50
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup[10]//android.widget.TextView[@text = '20:50']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[10]//android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[10]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]
+    priority: 2
+- id: mND5WhhVyk2HFgF8B8NmsA
+  name: >-
+    28 Mei
+
+    SAB
+  type:
+    id: jUwODgyNjAyNzk2NTk3MzM
+    name: android.widget.RadioButton
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //android.widget.RadioButton[@text = '28 Mei
+
+      SAB']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.RadioButton[5]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.HorizontalScrollView[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[5]
+    priority: 2
+- id: 6SyhDAaN3ki2VW1G-zgXhw
+  name: 15:40
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup[6]//android.widget.TextView[@text = '15:40']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[6]//android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[6]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]
+    priority: 2
+- id: Vh-rq8fnwka4oSUG9moOHQ
+  name: Bioskop
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Bioskop']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.TextView[1]
+    priority: 2
+- id: rdRnts-TyUmJl91_4wVssQ
+  name: XXI
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'XXI']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[2]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[2]/android.widget.TextView[1]
+    priority: 2
+- id: 1hlYXKodJkaXP36JUOcaKw
+  name: Sortir
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.TextView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Sortir']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.TextView[1]
+    priority: 2
+- id: E_M5RotC5UyF3gy8ve4wTQ
+  name: Harga Termurah
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Harga Termurah']
+    priority: 1
+  - name: XPATH
+    value: //android.view.ViewGroup[1]/android.widget.TextView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: YMUD7G9wiU2HWXbrvjR5Kw
+  name: Studio
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Studio']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[3]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[3]/android.widget.TextView[1]
+    priority: 2
+- id: 2xrtqP4fF0aTm_NfSLQ40A
+  name: IMAX 2D
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'IMAX 2D']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[4]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[4]/android.widget.TextView[1]
+    priority: 2
+- id: cDOBZ9vUJUWPvjDZ59oBRA
+  name: id.tix.android:id/iv_positive
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjI
+    name: android.widget.ImageView
+    source: System
+  locators:
+  - name: ID
+    value: id.tix.android:id/iv_positive
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout/android.view.ViewGroup/android.widget.ImageView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[1]
+    priority: 2
+- id: nhAvpW1_SEufDOssvtLibA
+  name: BATAL
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: ID
+    value: id.tix.android:id/tv_negative
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'BATAL']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout/android.view.ViewGroup[1]/android.widget.TextView
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 3
+- id: UJzaS1A0XEKyDZauFroliw
+  name: ALLOW
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDU
+    name: android.widget.Button
+    source: System
+  locators:
+  - name: ID
+    value: com.android.packageinstaller:id/permission_allow_button
+    priority: 0
+  - name: XPATH
+    value: //android.widget.Button[@text = 'ALLOW']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.Button[2]
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[2]
+    priority: 3
+- id: JjmisAlOEUqZBYnejaGq3A
+  name: id.tix.android:id/iv_close
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjI
+    name: android.widget.ImageView
+    source: System
+  locators:
+  - name: ID
+    value: id.tix.android:id/iv_close
+    priority: 0
+  - name: XPATH
+    value: //android.widget.RelativeLayout/android.widget.ImageView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.appcompat.widget.LinearLayoutCompat[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]
+    priority: 2
+- id: h7ZbJI_SKk6Q0aJVezvGVg
+  name: MASUK/DAFTAR
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDU
+    name: android.widget.Button
+    source: System
+  locators:
+  - name: ID
+    value: id.tix.android:id/btn_view_home_login
+    priority: 2
+  - name: XPATH
+    value: //android.widget.Button[@text = 'MASUK/DAFTAR']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.Button
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.Button[1]
+    priority: 3
+- id: r5X9x-uqEEKxNay42qbb1w
+  name: id.tix.android:id/et_input
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: ID
+    value: id.tix.android:id/et_input
+    priority: 0
+  - name: XPATH
+    value: //android.widget.LinearLayout/android.widget.EditText
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.EditText[1]
+    priority: 2
+- id: juYNf7oB1Em8LNyFHUMEpw
+  name: Masukkan Password
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: ID
+    value: id.tix.android:id/edt_password
+    priority: 0
+  - name: XPATH
+    value: //android.widget.EditText[@text = 'Masukkan Password']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout/android.widget.EditText
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.EditText[1]
+    priority: 3
+- id: PxE8FMO0u02zAa7lrIVFfA
+  name: Masuk
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDU
+    name: android.widget.Button
+    source: System
+  locators:
+  - name: ID
+    value: id.tix.android:id/btn_login
+    priority: 0
+  - name: XPATH
+    value: //android.widget.Button[@text = 'Masuk']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.Button
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.Button[1]
+    priority: 3
+- id: fOeptc6zD0-ANW9kEedQsg
+  name: Dapatkan Reward LOYALTIX
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Dapatkan Reward LOYALTIX']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.LinearLayout/android.widget.FrameLayout[1]/android.view.ViewGroup/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: 5jfW6nMSG0imFnOjgJePAA
+  name: rafiola saputra
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: ID
+    value: id.tix.android:id/tv_account_name
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'rafiola saputra']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.RelativeLayout/android.view.ViewGroup/android.widget.TextView[1]
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 3
+- id: BCKIA_E5L0-LmVQN8M95gw
+  name: Kembali ke atas
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjA
+    name: android.widget.ImageButton
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.ImageButton[@content-desc = 'Kembali ke atas']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.ImageButton
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.ImageButton[1]
+    priority: 2
+projectParameters: []
+addons: []
