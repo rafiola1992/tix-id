@@ -1,7 +1,7 @@
-id: XKpi1QqFpkqasyMIYWq-vw
+id: ffJo_U2bVUuIyknfYiA2LA
 projectId: X8aVseLzDEeJkaEu5LI4zQ
 projectName: TIX ID
-created: 2022-05-27T10:42:11.0234538Z
+created: 2022-06-28T15:17:33.5354601Z
 protocol: 1
 tests:
 - id: 908ezpS0MEekMx-PvFeEcg
@@ -874,7 +874,7 @@ auxTests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-05-21T07:07:23.0000000
-  modificationDate: 2022-05-27T04:54:46.0000000
+  modificationDate: 2022-06-28T14:15:18.0000000
   settings:
     automationAssistant: true
     deviceId: emulator-5554
@@ -1140,149 +1140,6 @@ auxTests:
     description: ''
     type: Input
 elements:
-- id: h7ZbJI_SKk6Q0aJVezvGVg
-  name: MASUK/DAFTAR
-  type:
-    id: jUwODgyNjAyNzk2NTk4NDU
-    name: android.widget.Button
-    source: System
-  locators:
-  - name: ID
-    value: id.tix.android:id/btn_view_home_login
-    priority: 2
-  - name: XPATH
-    value: //android.widget.Button[@text = 'MASUK/DAFTAR']
-    priority: 1
-  - name: XPATH
-    value: //android.widget.Button
-    priority: 0
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.Button[1]
-    priority: 3
-- id: r5X9x-uqEEKxNay42qbb1w
-  name: id.tix.android:id/et_input
-  type:
-    id: jUwODgyNjAyNzk2NTk3MTM
-    name: android.widget.EditText
-    source: System
-  locators:
-  - name: ID
-    value: id.tix.android:id/et_input
-    priority: 0
-  - name: XPATH
-    value: //android.widget.LinearLayout/android.widget.EditText
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.EditText[1]
-    priority: 2
-- id: juYNf7oB1Em8LNyFHUMEpw
-  name: Masukkan Password
-  type:
-    id: jUwODgyNjAyNzk2NTk3MTM
-    name: android.widget.EditText
-    source: System
-  locators:
-  - name: ID
-    value: id.tix.android:id/edt_password
-    priority: 0
-  - name: XPATH
-    value: //android.widget.EditText[@text = 'Masukkan Password']
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout/android.widget.EditText
-    priority: 2
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.EditText[1]
-    priority: 3
-- id: PxE8FMO0u02zAa7lrIVFfA
-  name: Masuk
-  type:
-    id: jUwODgyNjAyNzk2NTk4NDU
-    name: android.widget.Button
-    source: System
-  locators:
-  - name: ID
-    value: id.tix.android:id/btn_login
-    priority: 0
-  - name: XPATH
-    value: //android.widget.Button[@text = 'Masuk']
-    priority: 1
-  - name: XPATH
-    value: //android.widget.Button
-    priority: 2
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.Button[1]
-    priority: 3
-- id: 5jfW6nMSG0imFnOjgJePAA
-  name: rafiola saputra
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: ID
-    value: id.tix.android:id/tv_account_name
-    priority: 0
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'rafiola saputra']
-    priority: 1
-  - name: XPATH
-    value: //android.widget.RelativeLayout/android.view.ViewGroup/android.widget.TextView[1]
-    priority: 2
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
-    priority: 3
-- id: JjmisAlOEUqZBYnejaGq3A
-  name: id.tix.android:id/iv_close
-  type:
-    id: jUwODgyNjAyNzk2NTk3MjI
-    name: android.widget.ImageView
-    source: System
-  locators:
-  - name: ID
-    value: id.tix.android:id/iv_close
-    priority: 1
-  - name: XPATH
-    value: //android.widget.RelativeLayout/android.widget.ImageView
-    priority: 0
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.appcompat.widget.LinearLayoutCompat[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]
-    priority: 2
-- id: UJzaS1A0XEKyDZauFroliw
-  name: ALLOW
-  type:
-    id: jUwODgyNjAyNzk2NTk4NDU
-    name: android.widget.Button
-    source: System
-  locators:
-  - name: ID
-    value: com.android.packageinstaller:id/permission_allow_button
-    priority: 0
-  - name: XPATH
-    value: //android.widget.Button[@text = 'ALLOW']
-    priority: 1
-  - name: XPATH
-    value: //android.widget.Button[2]
-    priority: 2
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[2]
-    priority: 3
-- id: fOeptc6zD0-ANW9kEedQsg
-  name: Dapatkan Reward LOYALTIX
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'Dapatkan Reward LOYALTIX']
-    priority: 0
-  - name: XPATH
-    value: //android.widget.LinearLayout/android.widget.FrameLayout[1]/android.view.ViewGroup/android.widget.TextView
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
-    priority: 2
 - id: BCKIA_E5L0-LmVQN8M95gw
   name: Kembali ke atas
   type:
@@ -1312,22 +1169,6 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]
     priority: 1
-- id: Ekdgct8vbkaxcJp3y-vang
-  name: JADWAL
-  type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
-    source: System
-  locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = 'JADWAL']
-    priority: 0
-  - name: XPATH
-    value: //*[@class = 'androidx.appcompat.app.ActionBar$Tab'][2]/android.widget.TextView
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.HorizontalScrollView[1]/android.widget.LinearLayout[1]/*[@class = 'androidx.appcompat.app.ActionBar$Tab'][2]/android.widget.TextView[1]
-    priority: 2
 - id: 4vxyCkjydkSU6cL5GxZNug
   name: SINOPSIS1
   type:
@@ -1357,6 +1198,22 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ImageView[1]
     priority: 1
+- id: Ekdgct8vbkaxcJp3y-vang
+  name: JADWAL
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'JADWAL']
+    priority: 0
+  - name: XPATH
+    value: //*[@class = 'androidx.appcompat.app.ActionBar$Tab'][2]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.HorizontalScrollView[1]/android.widget.LinearLayout[1]/*[@class = 'androidx.appcompat.app.ActionBar$Tab'][2]/android.widget.TextView[1]
+    priority: 2
 - id: 0BLWRf0u9UanQJckk01UEQ
   name: >-
     27 Mei
@@ -1379,6 +1236,22 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.HorizontalScrollView[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[4]
     priority: 2
+- id: eW0ESblzLkCA2hl-2QsqYA
+  name: 20:55
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '20:55']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[10]//android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[10]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]
+    priority: 2
 - id: mND5WhhVyk2HFgF8B8NmsA
   name: >-
     28 Mei
@@ -1400,6 +1273,22 @@ elements:
     priority: 1
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.HorizontalScrollView[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[5]
+    priority: 2
+- id: 8O_6Cpa34k-39U5R-Jr4Sw
+  name: 21:00
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = '21:00']
+    priority: 0
+  - name: XPATH
+    value: //android.view.ViewGroup[10]//android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[10]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]
     priority: 2
 - id: Vh-rq8fnwka4oSUG9moOHQ
   name: Bioskop
@@ -1513,37 +1402,164 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ImageView[1]
     priority: 2
-- id: eW0ESblzLkCA2hl-2QsqYA
-  name: 20:55
+- id: UJzaS1A0XEKyDZauFroliw
+  name: ALLOW
   type:
-    id: jUwODgyNjAyNzk2NTk3NTE
-    name: android.widget.TextView
+    id: jUwODgyNjAyNzk2NTk4NDU
+    name: android.widget.Button
     source: System
   locators:
-  - name: XPATH
-    value: //android.widget.TextView[@text = '20:55']
-    priority: 0
-  - name: XPATH
-    value: //android.view.ViewGroup[10]//android.widget.TextView
-    priority: 1
-  - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[10]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]
+  - name: ID
+    value: com.android.packageinstaller:id/permission_allow_button
     priority: 2
-- id: 8O_6Cpa34k-39U5R-Jr4Sw
-  name: 21:00
+  - name: XPATH
+    value: //android.widget.Button[@text = 'ALLOW']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.Button[2]
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[2]
+    priority: 3
+- id: JjmisAlOEUqZBYnejaGq3A
+  name: id.tix.android:id/iv_close
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjI
+    name: android.widget.ImageView
+    source: System
+  locators:
+  - name: ID
+    value: id.tix.android:id/iv_close
+    priority: 1
+  - name: XPATH
+    value: //android.widget.RelativeLayout/android.widget.ImageView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.appcompat.widget.LinearLayoutCompat[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]
+    priority: 2
+- id: h7ZbJI_SKk6Q0aJVezvGVg
+  name: MASUK/DAFTAR
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDU
+    name: android.widget.Button
+    source: System
+  locators:
+  - name: ID
+    value: id.tix.android:id/btn_view_home_login
+    priority: 2
+  - name: XPATH
+    value: //android.widget.Button[@text = 'MASUK/DAFTAR']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.Button
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.Button[1]
+    priority: 3
+- id: r5X9x-uqEEKxNay42qbb1w
+  name: id.tix.android:id/et_input
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: ID
+    value: id.tix.android:id/et_input
+    priority: 0
+  - name: XPATH
+    value: //android.widget.LinearLayout/android.widget.EditText
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.EditText[1]
+    priority: 2
+- id: juYNf7oB1Em8LNyFHUMEpw
+  name: Masukkan Password
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: ID
+    value: id.tix.android:id/edt_password
+    priority: 0
+  - name: XPATH
+    value: //android.widget.EditText[@text = 'Masukkan Password']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout/android.widget.EditText
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.EditText[1]
+    priority: 3
+- id: PxE8FMO0u02zAa7lrIVFfA
+  name: Masuk
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDU
+    name: android.widget.Button
+    source: System
+  locators:
+  - name: ID
+    value: id.tix.android:id/btn_login
+    priority: 0
+  - name: XPATH
+    value: //android.widget.Button[@text = 'Masuk']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.Button
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.Button[1]
+    priority: 3
+- id: fOeptc6zD0-ANW9kEedQsg
+  name: Dapatkan Reward LOYALTIX
   type:
     id: jUwODgyNjAyNzk2NTk3NTE
     name: android.widget.TextView
     source: System
   locators:
   - name: XPATH
-    value: //android.widget.TextView[@text = '21:00']
+    value: //android.widget.TextView[@text = 'Dapatkan Reward LOYALTIX']
     priority: 0
   - name: XPATH
-    value: //android.view.ViewGroup[10]//android.widget.TextView
+    value: //android.widget.LinearLayout/android.widget.FrameLayout[1]/android.view.ViewGroup/android.widget.TextView
     priority: 1
   - name: XPATH
-    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[10]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 2
+- id: 5jfW6nMSG0imFnOjgJePAA
+  name: rafiola saputra
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: ID
+    value: id.tix.android:id/tv_account_name
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'rafiola saputra']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.RelativeLayout/android.view.ViewGroup/android.widget.TextView[1]
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[1]
+    priority: 3
+- id: BCKIA_E5L0-LmVQN8M95gw
+  name: Kembali ke atas
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjA
+    name: android.widget.ImageButton
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.ImageButton[@content-desc = 'Kembali ke atas']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.ImageButton
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.ImageButton[1]
     priority: 2
 projectParameters: []
 addons: []
